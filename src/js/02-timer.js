@@ -62,7 +62,7 @@ flatpickr(input, options);
     }, 1000);
   });
 
-styleTimer.style.cssText = 'display: flex;';
+styleTimer.style.cssText = 'display: flex; gap: 10px';
 daysVal.style.cssText = 'display: flex;';
 daysVal.style.fontSize = "24px";
 hoursVal.style.cssText = 'display: flex;';
